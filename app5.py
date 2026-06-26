@@ -79,7 +79,7 @@ div[data-testid="stButton"] > button:hover { background:#1B5E20 !important; }
 # ── Load model ────────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    path = "best olist model"
+    path = "best olist model.zip.zip"
     if os.path.exists(path):
         with open(path, "rb") as f:
             return pickle.load(f)
